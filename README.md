@@ -18,7 +18,7 @@
 - **팀원명:** 안선효, 박지환, 정이량, 송지한
 - **제출일:** 2025년 6월 23일
 
-[GitHub 저장소 바로가기](https://github.com/eryang11188/OpenSource_1team.git)
+[GitHub 저장소 바로가기](https://github.com/jeongiryang/OpenSource_1_team-project.git)
 
 
 
