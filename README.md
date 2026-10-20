@@ -1,3 +1,50 @@
+# Python Terminal TRPG
+
+사냥터에서 전투하고, 상점에서 장비와 아이템을 구매하는 Python 터미널 게임입니다. 플레이어·몬스터·전투·상점을 모듈로 나누어 개발한 4인 팀 프로젝트입니다.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Terminal](https://img.shields.io/badge/Terminal-444444?style=flat-square)
+
+[실행](#실행) · [게임 흐름](#게임-흐름) · [플레이어](player.py) · [상점](shop.py) · [팀 과제 보고서](#과제-보고서)
+
+## 실행
+
+저장소 루트에서 Python으로 실행합니다.
+
+```bash
+python -X utf8 main.py
+```
+
+메뉴의 번호를 입력해 진행합니다. UTF-8 옵션은 기존 Windows 터미널 인코딩 문제를 피하기 위한 실행 방식입니다.
+
+## 게임 흐름
+
+```text
+1. 사냥터로 가기  → 몬스터와 전투
+2. 상점 방문하기  → 아이템·능력치 구매, 회복
+3. 게임 종료
+```
+
+플레이어의 체력·공격력·골드·인벤토리를 전투와 상점에서 함께 사용합니다.
+
+| 파일 | 내용 |
+| --- | --- |
+| [main.py](main.py), [game_manager.py](game_manager.py) | 플레이어 생성, 메뉴와 게임 루프 |
+| [player.py](player.py), [shop.py](shop.py) | 상태·인벤토리, 구매·회복 |
+| [monster_data.py](monster_data.py), [coin.py](coin.py) | 몬스터 데이터와 보상 |
+| [dungeon.py](dungeon.py), [combat.py](combat.py) | 던전 진행과 전투 |
+
+## 담당과 결과
+
+정이량은 플레이어 상태·인벤토리·상점 구현을 맡았습니다. 팀원별 화면, 모듈 통합, 브랜치·PR 협업 과정과 최종 실행 결과는 아래 보고서에 있습니다.
+
+![기존 과제 최종 실행 결과](https://github.com/user-attachments/assets/d9d85e7c-8955-4e63-a504-8c00c39dbd08)
+
+## 과제 보고서
+
+<details>
+<summary>기존 과제 보고서 펼치기</summary>
+
 ## 오픈소스 1팀 프로젝트 보고서
 
 
@@ -425,4 +472,4 @@ main 브랜치에 반영함으로써 안정적인 통합을 추구했다.**
 
 - [Markdown 문법](https://www.markdownguide.org/)
 
-
+</details>
